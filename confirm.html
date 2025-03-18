@@ -617,7 +617,50 @@
 		<div class="lcRequiredFields">
 			<span class="mand"></span>
 		</div>
+<style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .checkmark {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #4CAF50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+        }
+        .checkmark::after {
+            content: '\2713'; /* Unicode checkmark */
+            font-size: 40px;
+            color: white;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
 
+ <div class="container">
+        <div class="checkmark"></div>
+        <h2>Payment Processing</h2>
+        <p>We will notify you once your payment is confirmed.</p>
+    </div>
 </div>
 <!-- SHIPPING VISID -->
 
